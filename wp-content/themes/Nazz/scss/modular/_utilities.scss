@@ -1,0 +1,10 @@
+.floatLeft {float: left;}
+.floatRight {float: right;}
+
+div, section, article, aside {@include box-sizing($box-size);} 
+
+.noDisplay {display: none;}
+.fixed {position: fixed;}
+.clearFix {clear: both;}
+body {background: $pattern; }
+section {width: 100%;}

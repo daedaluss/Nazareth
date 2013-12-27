@@ -1,0 +1,66 @@
+
+@mixin box-shadow {-webkit-box-shadow: 0px 0px 11px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 11px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 11px rgba(50, 50, 50, 0.75);}
+
+@mixin center {
+   
+  display: inline-block;
+  vertical-align: middle;}
+
+
+@mixin border-radius($radius) {-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+border-radius: $radius;}
+
+ul, li {list-style: none; text-indent: none; margin: 0; padding: 0;}
+
+@mixin easing($fadein) {
+	-webkit-transition: $fadein;
+    -moz-transition: $fadein;
+    -o-transition: $fadein;
+    transition: $fadein;
+	
+}
+
+@mixin animation-delay($seconds) {
+	-webkit-animation-delay: $seconds;
+      -moz-animation-delay: $seconds;
+        -ms-animation-delay: $seconds;
+          -o-animation-delay: $seconds;
+}
+
+@mixin animation-iteration($value) {
+    -webkit-animation-iteration-count: $value;
+    -moz-animation-iteration-count: $value;
+    -ms-animation-iteration-count: $value;
+    -o-animation-iteration-count: $value;
+    animation-iteration-count: $value;
+
+}
+
+@mixin border-radius($value) {
+-webkit-border-radius: $value;
+-moz-border-radius: $value;
+border-radius: $value;	
+}
+
+
+@mixin box-sizing($box-size) {
+	 -webkit-border-radius: $box-size;
+     -moz-border-radius: $box-size;
+      -ms-border-radius: $box-size;
+       -o-border-radius: $box-size;
+          border-radius: $box-size;
+}
+
+
+$box-size: border-box;
+
+/*Swatches*/
+
+
+/*Typekit*/
+
+/*Tag Specifics*/
+
